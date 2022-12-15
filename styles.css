@@ -1,0 +1,243 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: 255, 255, 255, 0.5;
+  background-image: url(./img/IMAGE-22.png);
+}
+body .text-1 {
+  font-size: 70px;
+}
+body .text-2 {
+  font-size: 52px;
+}
+body .text-3 {
+  font-size: 36px;
+}
+body .text-4 {
+  font-size: 25px;
+  margin: 0px;
+}
+body .text-5 {
+  font-size: 22px;
+  margin: 0px;
+}
+body .text-6 {
+  font-size: 19px;
+  margin: 0px;
+}
+body .wrapper {
+  max-width: 1440px;
+  background-color: #E5E5E5;
+}
+body .wrapper .nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+body .wrapper .header-container .text-header {
+  background-image: url(./img/IMAGE.png);
+  background-color: #F9F8F8;
+  padding: 300px 0px 0px 30px;
+}
+body .wrapper .header-container .text-header .button-header {
+  height: 82px;
+  width: 219px;
+  background: #EFD372;
+  border: 1px solid #EFD372;
+  border-radius: 16px;
+}
+body .wrapper .header-container .text-header .button-header:hover {
+  background: #eeb404;
+  scale: 1.05;
+}
+body .wrapper .preview-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 200px 0px 140px 0px;
+}
+body .wrapper .preview-container .preview-main {
+  width: 665px;
+  height: 378px;
+}
+body .wrapper .preview-container .preview-left {
+  background-image: url(./img/IMAGE-1.png);
+  background-color: #F9F8F8;
+}
+body .wrapper .preview-container .preview-rigth {
+  background-image: url(./img/IMAGE-2.png);
+  background-color: #F9F8F8;
+}
+body .wrapper .slogan-container {
+  display: flex;
+  align-items: center;
+  height: 1006px;
+  background-color: #F9F8F8;
+}
+body .wrapper .slogan-container .subtitle .icon-subtitle {
+  display: flex;
+}
+body .wrapper .slogan-container .subtitle .icon-subtitle .icon-slogan {
+  padding-top: 7%;
+}
+body .wrapper .shop-container {
+  width: 1440px;
+}
+body .wrapper .shop-container .shop-cart-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .wrapper .shop-container .shop-cart-container .shop-cart {
+  margin: 0 19px 19px 0;
+  background-color: antiquewhite;
+  padding: 30px;
+  border-radius: 30px;
+}
+body .wrapper .shop-container .shop-cart-container .shop-cart .img-shop {
+  max-width: 100%;
+}
+body .wrapper .shop-container .shop-cart-container .shop-cart .shop-button {
+  width: 118px;
+  height: 37px;
+  background-color: #6d81c7;
+  border-radius: 8px;
+  border: 1px solid #274C5B;
+  color: #ffffff;
+}
+body .wrapper .shop-container .shop-cart-container .shop-cart .shop-button:hover {
+  background-color: #476e9e;
+  scale: 1.05;
+}
+body .wrapper .shop-container .shop-cart-container .shop-cart .shop-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .wrapper .shop-container .shop-cart-container .shop-cart .stars {
+  display: flex;
+}
+body .wrapper .shop-container .shop-cart-container .shop-cart .stars .rating:hover:before,
+body .wrapper .shop-container .shop-cart-container .shop-cart .stars .rating:hover ~ rating:before {
+  content: url(./icon/stars.png);
+  scale: 1.5;
+  position: absolute;
+}
+body .wrapper .aside-container {
+  background-image: url(./img/IMAGE-10.png);
+  background-color: #6d81c7;
+}
+body .wrapper .aside-container .aside-desc .circle img {
+  border-radius: 50%;
+}
+body .wrapper .aside-container .circle-rating {
+  width: 240px;
+  height: 240px;
+  border: 6px solid red;
+  background-color: #274C5B;
+  border-radius: 50%;
+}
+body .wrapper .shop-more {
+  width: 1440px;
+  background-color: #274C5B;
+}
+body .wrapper .article {
+  display: flex;
+  justify-content: right;
+  background-image: url(./img/IMAGE-15.png);
+  background-repeat: no-repeat;
+}
+body .wrapper .article .article-text {
+  margin: 40px 60px 40px 0;
+  padding: 20px 60px 0 60px;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #FFFFFF;
+  width: 720px;
+  height: 623px;
+}
+body .wrapper .page-container {
+  display: flex;
+  justify-content: space-between;
+}
+body .wrapper .page-container .page {
+  width: 580px;
+  height: 460px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+body .wrapper .page-container .page-Fruit {
+  background-image: url(./img/IMAGE-16.png);
+}
+body .wrapper .page-container .page-Organic {
+  background-image: url(./img/IMAGE-17.png);
+}
+body .wrapper .page-container .page-Nuts {
+  background-image: url(./img/IMAGE-18.png);
+}
+body .wrapper .page-container .page-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+  width: 312px;
+  height: 95px;
+}
+body .wrapper .page-container .page-button:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+body .wrapper .overlay .overlay-bg-tx-container {
+  display: flex;
+}
+body .wrapper .overlay .overlay-bg-tx-container .overlay-bg-tx .overlay-bg-left {
+  background-image: url(./img/IMAGE-19.png);
+}
+body .wrapper .overlay .overlay-bg-tx-container .overlay-bg-tx .overlay-bg-right {
+  background-image: url(./img/IMAGE-20.png);
+}
+body .wrapper .overlay .overlay-bg-tx-container .overlay-bg-tx .overlay-bg {
+  width: 670px;
+  height: 515px;
+  border-radius: 30px;
+}
+body .wrapper .overlay .overlay-bg-tx-container .overlay-bg-tx .overlay-bg .overlay-tx {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 610px;
+  height: 337px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  margin: -300px 30px 0 30px;
+}
+body .contacts {
+  min-height: 320px;
+  padding: 118px 0 118px 0;
+  background-image: url(./img/IMAGE-23.png);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+body .contacts .text-2 {
+  margin: 118px 0 118px 0;
+  padding: 0 300px 0 0;
+  color: #f6f6f6;
+}
+body .contacts .form {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 16px;
+}
+body .contacts .form .input {
+  width: 350px;
+  height: 82px;
+}/*# sourceMappingURL=styles.css.map */
