@@ -99,8 +99,46 @@ body .wrapper .slogan-container {
 body .wrapper .slogan-container .subtitle .icon-subtitle {
   display: flex;
 }
-body .wrapper .slogan-container .subtitle .icon-subtitle .icon-slogan {
-  padding-top: 7%;
+body .wrapper .slogan-container .subtitle .icon-subtitle .wrapper-soup::before {
+  content: url(./icon/Vector.png);
+  width: 32px;
+  height: 32px;
+}
+body .wrapper .slogan-container .subtitle .icon-subtitle .wrapper-soup:hover:before {
+  content: url(./icon/Vector\ dark.png);
+  width: 32px;
+  height: 32px;
+}
+body .wrapper .slogan-container .subtitle .icon-subtitle .wrapper-postbox::before {
+  content: url(./icon/Vector-1.png);
+  width: 32px;
+  height: 32px;
+}
+body .wrapper .slogan-container .subtitle .icon-subtitle .wrapper-postbox:hover:before {
+  content: url(./icon/Vector-1\ dark.png);
+  width: 32px;
+  height: 32px;
+}
+body .wrapper .slogan-container .shop-button-slogan {
+  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color: #2e466e;
+  border-radius: 16px;
+  border: 1px solid #1f2f47;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 32px 76px;
+  text-decoration: none;
+}
+body .wrapper .slogan-container .shop-button-slogan:hover {
+  background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+  background-color: #415989;
+}
+body .wrapper .slogan-container .shop-button-slogan:active {
+  position: relative;
+  top: 1px;
 }
 body .wrapper .shop-container {
   width: 1440px;

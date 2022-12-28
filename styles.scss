@@ -125,11 +125,52 @@ body {
       .subtitle {
         .icon-subtitle {
           display: flex;
-
-          .icon-slogan {
-            padding-top: 7%;
+          .wrapper-soup::before{
+            content: url(./icon/Vector.png);
+            width: 32px;
+            height: 32px;
+      
+          }
+          .wrapper-soup:hover:before{
+            content: url(./icon/Vector\ dark.png);
+            width: 32px;
+            height: 32px;
+      
+          }
+          .wrapper-postbox::before{
+            content: url(./icon/Vector-1.png);
+            width: 32px;
+            height: 32px;
+      
+          }
+          .wrapper-postbox:hover:before{
+            content: url(./icon/Vector-1\ dark.png);
+            width: 32px;
+            height: 32px;
+      
           }
         }
+      }
+      .shop-button-slogan {
+        background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+        background-color:#2e466e;
+        border-radius:16px;
+        border:1px solid #1f2f47;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        padding:32px 76px;
+        text-decoration:none;
+      }
+      .shop-button-slogan:hover {
+        background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+        background-color:#415989;
+      }
+      .shop-button-slogan:active {
+        position:relative;
+        top:1px;
       }
     }
 
