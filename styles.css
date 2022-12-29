@@ -57,6 +57,31 @@ body .wrapper .nav-container .icon-nav .text-3:hover:before {
   width: 32px;
   height: 32px;
 }
+body .wrapper .link {
+  display: flex;
+}
+body .wrapper .link a {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: #dcdcdc;
+}
+body .wrapper .link .drop-down-menu:hover .submenu {
+  display: block;
+}
+body .wrapper .link .submenu {
+  position: absolute;
+  padding: 0px;
+  margin: 0;
+  background-color: #e2c86c;
+  display: none;
+}
+body .wrapper .link .submenu .submenu_item {
+  padding: 5px 10px;
+  list-style-type: none;
+}
+body .wrapper .link .submenu .submenu_item:hover {
+  background-color: #ac9954;
+}
 body .wrapper .header-container .text-header {
   background-image: url(./img/IMAGE.png);
   padding: 150px 0px 150px 30px;
@@ -241,16 +266,28 @@ body .wrapper .page-container .page-Fruit {
   background-image: url(./img/IMAGE-16.png);
   width: 460px;
   height: 580px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 body .wrapper .page-container .page-Organic {
   background-image: url(./img/IMAGE-17.png);
   width: 460px;
   height: 580px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 body .wrapper .page-container .page-Nuts {
   background-image: url(./img/IMAGE-18.png);
   width: 460px;
   height: 580px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 body .wrapper .page-container .page-button {
   display: flex;
