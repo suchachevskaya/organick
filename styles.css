@@ -190,9 +190,6 @@ body .wrapper .shop-container .shop-cart-container .shop-cart {
 body .wrapper .shop-container .shop-cart-container .shop-cart .img-shop {
   max-width: 100%;
 }
-body .wrapper .shop-container .shop-cart-container .shop-cart .img-shop .img:hover {
-  scale: 1.5;
-}
 body .wrapper .shop-container .shop-cart-container .shop-cart .shop-button {
   width: 118px;
   height: 37px;
